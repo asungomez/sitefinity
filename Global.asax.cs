@@ -2,6 +2,7 @@ using System;
 using System.Web;
 using Telerik.Sitefinity;
 using Telerik.Sitefinity.Abstractions;
+using Telerik.Sitefinity.Data.Events;
 using Telerik.Sitefinity.Services;
 using Telerik.Sitefinity.DynamicModules;
 using Telerik.Sitefinity.DynamicModules.Builder;
@@ -19,14 +20,11 @@ namespace SitefinityWebApp
         /// Handles the Initialized event of the Sitefinity Bootstrapper.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="ExecutedEventArgs"/> instance containing the event data.</param>
-        private static void Bootstrapper_Initialized(object sender, ExecutedEventArgs e)
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+        private static void Bootstrapper_Initialized(object sender, EventArgs e)
         {
-            if (e.CommandName == "Bootstrapper")
-            {
-                // Register the Markdown field control for Dynamic Modules
-                RegisterMarkdownFieldControl();
-            }
+            // Register the Markdown field control for Dynamic Modules
+            RegisterMarkdownFieldControl();
         }
 
         /// <summary>

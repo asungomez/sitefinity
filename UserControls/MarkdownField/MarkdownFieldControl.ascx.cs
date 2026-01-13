@@ -1,6 +1,7 @@
 using System;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Telerik.Sitefinity.Web.UI;
 using Telerik.Sitefinity.Web.UI.Fields;
 using Telerik.Sitefinity.Modules.Pages;
 
