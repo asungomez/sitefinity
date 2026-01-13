@@ -19,7 +19,7 @@ namespace SitefinityWebApp.UserControls.MarkdownField
         /// </summary>
         protected override WebControl TitleControl
         {
-            get { return this.TitleLabel; }
+            get { return this.TitleLabel as WebControl; }
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace SitefinityWebApp.UserControls.MarkdownField
         /// </summary>
         protected override WebControl DescriptionControl
         {
-            get { return this.DescriptionLabel; }
+            get { return this.DescriptionLabel as WebControl; }
         }
 
         /// <summary>
@@ -56,8 +56,7 @@ namespace SitefinityWebApp.UserControls.MarkdownField
         /// <param name="container"></param>
         protected override void InitializeControls(GenericContainer container)
         {
-            // Base initialization
-            base.InitializeControls(container);
+            // Don't call base - it's abstract
         }
 
         /// <summary>
@@ -68,20 +67,17 @@ namespace SitefinityWebApp.UserControls.MarkdownField
         {
             base.OnLoad(e);
 
-            // Include TOAST UI Editor scripts and styles
-            if (!Page.ClientScript.IsClientScriptIncludeRegistered("ToastUIEditorCSS"))
-            {
-                Page.ClientScript.RegisterClientScriptInclude(
-                    "ToastUIEditorCSS",
-                    this.ResolveUrl("~/ResourcePackages/Bootstrap/assets/vendor/toast-ui/toastui-editor.min.css"));
-            }
+            // Register CSS file
+            string cssUrl = this.ResolveUrl("~/ResourcePackages/Bootstrap/assets/vendor/toast-ui/toastui-editor.min.css");
+            Page.Header.Controls.Add(new LiteralControl(
+                string.Format("<link rel=\"stylesheet\" href=\"{0}\" />", cssUrl)));
 
-            if (!Page.ClientScript.IsClientScriptIncludeRegistered("ToastUIEditorJS"))
-            {
-                Page.ClientScript.RegisterClientScriptInclude(
-                    "ToastUIEditorJS",
-                    this.ResolveUrl("~/ResourcePackages/Bootstrap/assets/vendor/toast-ui/toastui-editor-all.min.js"));
-            }
+            // Register JS file
+            string jsUrl = this.ResolveUrl("~/ResourcePackages/Bootstrap/assets/vendor/toast-ui/toastui-editor-all.min.js");
+            Page.ClientScript.RegisterClientScriptInclude(
+                this.GetType(),
+                "ToastUIEditor",
+                jsUrl);
         }
 
         /// <summary>

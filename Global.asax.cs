@@ -1,13 +1,7 @@
 using System;
 using System.Web;
-using Telerik.Sitefinity;
 using Telerik.Sitefinity.Abstractions;
-using Telerik.Sitefinity.Data.Events;
 using Telerik.Sitefinity.Services;
-using Telerik.Sitefinity.DynamicModules;
-using Telerik.Sitefinity.DynamicModules.Builder;
-using Telerik.Sitefinity.DynamicModules.Builder.Model;
-using Telerik.Sitefinity.Utilities.TypeConverters;
 
 namespace SitefinityWebApp
 {
@@ -23,43 +17,10 @@ namespace SitefinityWebApp
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private static void Bootstrapper_Initialized(object sender, EventArgs e)
         {
-            // Register the Markdown field control for Dynamic Modules
-            RegisterMarkdownFieldControl();
-        }
-
-        /// <summary>
-        /// Registers the Markdown field control as a custom field type for Dynamic Modules
-        /// </summary>
-        private static void RegisterMarkdownFieldControl()
-        {
-            try
-            {
-                // Register the field control as LongText type with custom control path
-                var fieldType = typeof(string);
-                var controlVirtualPath = "~/UserControls/MarkdownField/MarkdownFieldControl.ascx";
-
-                // Register the type converter for the Markdown field
-                TypeResolutionService.RegisterTypeConverter(
-                    "Markdown",
-                    new CustomFieldTypeConverter
-                    {
-                        ControlVirtualPath = controlVirtualPath,
-                        DataFieldType = fieldType,
-                        DesignerFieldControlVirtualPath = controlVirtualPath,
-                        DisplayName = "Markdown Editor",
-                        DbType = Telerik.Sitefinity.Data.Metadata.DbType.LongText
-                    });
-
-                Telerik.Sitefinity.Abstractions.Log.Write(
-                    "Markdown field control registered successfully.",
-                    Telerik.Sitefinity.Abstractions.ConfigurationPolicy.Trace);
-            }
-            catch (Exception ex)
-            {
-                Telerik.Sitefinity.Abstractions.Log.Write(
-                    string.Format("Error registering Markdown field control: {0}", ex.Message),
-                    Telerik.Sitefinity.Abstractions.ConfigurationPolicy.ErrorLog);
-            }
+            // Log that the application has initialized
+            Telerik.Sitefinity.Abstractions.Log.Write(
+                "Sitefinity application initialized. Markdown field control available at ~/UserControls/MarkdownField/MarkdownFieldControl.ascx",
+                Telerik.Sitefinity.Abstractions.ConfigurationPolicy.Trace);
         }
 
         /// <summary>
