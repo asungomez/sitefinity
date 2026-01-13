@@ -1254,13 +1254,16 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Mvc\Controllers\MarkdownFieldController.cs" />
-    <Compile Include="Mvc\Models\MarkdownFieldViewModel.cs" />
+    <Compile Include="UserControls\MarkdownField\MarkdownFieldControl.ascx.cs">
+      <DependentUpon>MarkdownFieldControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="UserControls\MarkdownField\MarkdownFieldControl.ascx" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Services\Analytics\AnalyticsPermissionsService.svc" />
     <Content Include="Sitefinity\Services\Analytics\DashboardData.svc" />

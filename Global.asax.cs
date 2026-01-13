@@ -1,14 +1,12 @@
 using System;
-using System.Linq;
 using System.Web;
 using Telerik.Sitefinity;
 using Telerik.Sitefinity.Abstractions;
-using Telerik.Sitefinity.Data;
 using Telerik.Sitefinity.Services;
-using Telerik.Sitefinity.Modules.Forms;
-using Telerik.Sitefinity.Modules.Forms.Web.UI.Fields;
-using Telerik.Sitefinity.Web.UI.Fields.Enums;
-using SitefinityWebApp.Mvc.Controllers;
+using Telerik.Sitefinity.DynamicModules;
+using Telerik.Sitefinity.DynamicModules.Builder;
+using Telerik.Sitefinity.DynamicModules.Builder.Model;
+using Telerik.Sitefinity.Utilities.TypeConverters;
 
 namespace SitefinityWebApp
 {
@@ -18,67 +16,45 @@ namespace SitefinityWebApp
     public class Global : System.Web.HttpApplication
     {
         /// <summary>
-        /// Handles the Initializing event of the Sitefinity Bootstrapper.
-        /// </summary>
-        /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="ExecutingEventArgs"/> instance containing the event data.</param>
-        private static void Bootstrapper_Initializing(object sender, ExecutingEventArgs e)
-        {
-            // This event is raised during the initialization of Sitefinity
-            // Use it to register custom types, routes, etc.
-        }
-
-        /// <summary>
         /// Handles the Initialized event of the Sitefinity Bootstrapper.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+        /// <param name="e">The <see cref="ExecutedEventArgs"/> instance containing the event data.</param>
         private static void Bootstrapper_Initialized(object sender, ExecutedEventArgs e)
         {
             if (e.CommandName == "Bootstrapper")
             {
-                // Register the Markdown field control
+                // Register the Markdown field control for Dynamic Modules
                 RegisterMarkdownFieldControl();
             }
         }
 
         /// <summary>
-        /// Registers the Markdown field control with the Forms module
+        /// Registers the Markdown field control as a custom field type for Dynamic Modules
         /// </summary>
         private static void RegisterMarkdownFieldControl()
         {
             try
             {
-                var configManager = Telerik.Sitefinity.Configuration.Config.GetManager();
-                var formsConfig = configManager.GetSection<Telerik.Sitefinity.Modules.Forms.Configuration.FormsConfig>();
+                // Register the field control as LongText type with custom control path
+                var fieldType = typeof(string);
+                var controlVirtualPath = "~/UserControls/MarkdownField/MarkdownFieldControl.ascx";
 
-                // Check if already registered
-                var existingControl = formsConfig.ToolboxItems.Elements
-                    .FirstOrDefault(e => e.Name == "MarkdownField");
-
-                if (existingControl == null)
-                {
-                    // Create toolbox item for the Markdown field
-                    var markdownFieldItem = new Telerik.Sitefinity.Modules.Forms.Configuration.FormToolboxItem(formsConfig.ToolboxItems)
+                // Register the type converter for the Markdown field
+                TypeResolutionService.RegisterTypeConverter(
+                    "Markdown",
+                    new CustomFieldTypeConverter
                     {
-                        Name = "MarkdownField",
-                        Title = "Markdown Editor",
-                        Description = "A rich text markdown editor field using TOAST UI Editor",
-                        ControllerType = typeof(MarkdownFieldController).AssemblyQualifiedName,
-                        CssClass = "sfMarkdownFieldIcn sfMvcIcn",
-                        SectionName = "Common",
-                        Ordinal = 0.5f, // Position in the toolbox
-                        ModuleName = "Forms"
-                    };
+                        ControlVirtualPath = controlVirtualPath,
+                        DataFieldType = fieldType,
+                        DesignerFieldControlVirtualPath = controlVirtualPath,
+                        DisplayName = "Markdown Editor",
+                        DbType = Telerik.Sitefinity.Data.Metadata.DbType.LongText
+                    });
 
-                    // Add to the toolbox
-                    formsConfig.ToolboxItems.Add(markdownFieldItem);
-
-                    // Save the configuration
-                    configManager.SaveSection(formsConfig);
-
-                    SystemManager.RestartApplication(OperationReason.Configuration);
-                }
+                Telerik.Sitefinity.Abstractions.Log.Write(
+                    "Markdown field control registered successfully.",
+                    Telerik.Sitefinity.Abstractions.ConfigurationPolicy.Trace);
             }
             catch (Exception ex)
             {
@@ -93,7 +69,6 @@ namespace SitefinityWebApp
         /// </summary>
         protected void Application_Start(object sender, EventArgs e)
         {
-            Bootstrapper.Initializing += Bootstrapper_Initializing;
             Bootstrapper.Initialized += Bootstrapper_Initialized;
         }
 
