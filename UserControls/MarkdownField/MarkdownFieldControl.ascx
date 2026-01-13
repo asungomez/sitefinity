@@ -1,31 +1,28 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MarkdownFieldControl.ascx.cs" Inherits="SitefinityWebApp.UserControls.MarkdownField.MarkdownFieldControl" %>
+<%@ Control Language="C#" AutoEventWireup="true" Inherits="SitefinityWebApp.UserControls.MarkdownField.MarkdownFieldControl" %>
 
-<div class="sfFieldWrp">
-    <label class="sfTxtLbl"><asp:Literal ID="TitleLabel" runat="server" /></label>
-    <asp:TextBox ID="MarkdownTextBox" runat="server" TextMode="MultiLine" CssClass="sfTxt" style="display:none;" />
-    <div id="<%= EditorContainerId %>" class="markdown-editor-container"></div>
-    <asp:Literal ID="DescriptionLabel" runat="server" />
-</div>
+<link rel="stylesheet" href="~/ResourcePackages/Bootstrap/assets/vendor/toast-ui/toastui-editor.min.css" />
+<script src="~/ResourcePackages/Bootstrap/assets/vendor/toast-ui/toastui-editor-all.min.js"></script>
+
+<input type="hidden" id="<%= ClientID %>_hiddenValue" />
+<div id="<%= ClientID %>_editor" style="margin: 10px 0;"></div>
 
 <script type="text/javascript">
 (function() {
-    var containerId = '<%= EditorContainerId %>';
-    var textboxId = '<%= MarkdownTextBox.ClientID %>';
-    var initialValue = document.getElementById(textboxId).value;
+    var editorId = '<%= ClientID %>_editor';
+    var editor = null;
 
-    // Wait for TOAST UI Editor to load
+    // Initialize when DOM is ready
     function initEditor() {
         if (typeof toastui === 'undefined' || !toastui.Editor) {
             setTimeout(initEditor, 100);
             return;
         }
 
-        var editor = new toastui.Editor({
-            el: document.getElementById(containerId),
+        editor = new toastui.Editor({
+            el: document.getElementById(editorId),
             height: '400px',
             initialEditType: 'wysiwyg',
             previewStyle: 'vertical',
-            initialValue: initialValue,
             usageStatistics: false,
             toolbarItems: [
                 ['heading', 'bold', 'italic', 'strike'],
@@ -33,23 +30,45 @@
                 ['ul', 'ol', 'task', 'indent', 'outdent'],
                 ['table', 'link'],
                 ['code', 'codeblock']
-            ]
+            ],
+            events: {
+                change: function() {
+                    // Update hidden field on every change
+                    var hiddenField = document.getElementById('<%= ClientID %>_hiddenValue');
+                    if (hiddenField) {
+                        hiddenField.value = editor.getMarkdown();
+                    }
+                }
+            }
         });
 
-        // Sync editor content back to hidden textbox
-        editor.on('change', function() {
-            var markdown = editor.getMarkdown();
-            document.getElementById(textboxId).value = markdown;
-        });
-
-        // Save on form submit
-        var form = document.getElementById(textboxId).form;
-        if (form) {
-            form.addEventListener('submit', function() {
-                document.getElementById(textboxId).value = editor.getMarkdown();
-            });
+        // Set initial value if any
+        var initialValue = window['<%= ClientID %>_initialValue'];
+        if (initialValue) {
+            editor.setMarkdown(initialValue);
         }
     }
+
+    // Expose getValue/setValue for Sitefinity
+    window['<%= ClientID %>_getValue'] = function() {
+        if (editor) {
+            var markdown = editor.getMarkdown();
+            var hiddenField = document.getElementById('<%= ClientID %>_hiddenValue');
+            if (hiddenField) {
+                hiddenField.value = markdown;
+            }
+            return markdown;
+        }
+        return '';
+    };
+
+    window['<%= ClientID %>_setValue'] = function(value) {
+        if (editor) {
+            editor.setMarkdown(value || '');
+        } else {
+            window['<%= ClientID %>_initialValue'] = value;
+        }
+    };
 
     // Start initialization
     if (document.readyState === 'loading') {

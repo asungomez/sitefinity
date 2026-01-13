@@ -1254,10 +1254,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\MarkdownField\MarkdownFieldControl.ascx.cs">
-      <DependentUpon>MarkdownFieldControl.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
+    <Compile Include="UserControls\MarkdownField\MarkdownFieldControl.cs" />
+    <Compile Include="UserControls\MarkdownField\RegisterMarkdownFieldType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
