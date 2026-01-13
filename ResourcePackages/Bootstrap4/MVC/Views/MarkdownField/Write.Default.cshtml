@@ -1,0 +1,82 @@
+@model SitefinityWebApp.Mvc.Models.MarkdownFieldViewModel
+
+@using Telerik.Sitefinity.UI.MVC
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+@using Telerik.Sitefinity.Modules.Pages
+@using Newtonsoft.Json
+
+@Html.Script(ScriptRef.JQuery, "top", false)
+
+@{
+    var editorConfig = new
+    {
+        initialEditType = Model.InitialEditType,
+        previewStyle = Model.PreviewStyle,
+        height = Model.EditorHeight,
+        placeholder = Model.PlaceholderText
+    };
+    var configJson = JsonConvert.SerializeObject(editorConfig);
+    var isRequired = Model.ValidatorDefinition != null &&
+                     Model.ValidatorDefinition.Required.HasValue &&
+                     Model.ValidatorDefinition.Required.Value;
+    var hasDescription = !string.IsNullOrEmpty(Model.MetaField.Description);
+}
+
+@* Load TOAST UI Editor CSS *@
+@Html.StyleSheet(Url.WidgetContent("assets/vendor/toast-ui/toastui-editor.min.css"), "head", false)
+
+@* Load TOAST UI Editor JavaScript *@
+@Html.Script(Url.WidgetContent("assets/vendor/toast-ui/toastui-editor-all.min.js"), "bottom", false)
+
+<div class="@Model.CssClass form-group"
+     data-sf-role="markdown-field-container"
+     data-sf-config='@Html.Raw(configJson)'
+     data-sf-required="@isRequired.ToString().ToLower()">
+
+    @* Hidden input to store validation messages *@
+    <input type="hidden"
+           data-sf-role="violation-messages"
+           value='{"required": "@Model.RequiredViolationMessage"}' />
+
+    @* Label *@
+    <label class="h6" for='@Html.UniqueId("MarkdownEditor")'>
+        @Model.MetaField.Title
+        @if (isRequired)
+        {
+            <span class="text-danger">*</span>
+        }
+    </label>
+
+    @* Description *@
+    @if (hasDescription)
+    {
+        <p id='@Html.UniqueId("MarkdownEditorInfo")' class="text-muted">
+            @Model.MetaField.Description
+        </p>
+    }
+
+    @* Container div where the TOAST UI Editor will be initialized *@
+    <div id='@Html.UniqueId("MarkdownEditor")'
+         data-sf-role="markdown-field-input"
+         style="margin-bottom: 10px;">
+    </div>
+
+    @* Hidden input to store the actual markdown value for form submission *@
+    <input type="hidden"
+           name="@Model.MetaField.FieldName"
+           data-sf-role="markdown-field-value"
+           value="@Model.Value"
+           @Html.Raw(Model.ValidationAttributes) />
+
+    @* Error message container *@
+    <div id='@Html.UniqueId("MarkdownEditorErrorMessage")'
+         data-sf-role="error-message"
+         role="alert"
+         aria-live="assertive"
+         class="text-danger"
+         style="display: none;">
+    </div>
+</div>
+
+@* Load custom JavaScript for field initialization *@
+@Html.Script(Url.WidgetContent("Mvc/Scripts/MarkdownField/markdown-field.js"), "bottom", false)
