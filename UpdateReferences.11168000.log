@@ -1,0 +1,31 @@
+Checking references started.
+
+File removed:'C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\SitefinityWebApp.ResourcePackages.Bootstrap.dll'
+Reference removed:'System.Web.OData'; File removed:'C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.OData.dll'
+Reference removed:'AWSSDK'; File removed:'C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\AWSSDK.dll'
+Reference removed:'Telerik.Sitefinity.AmazonCloudSearch'; File removed:'C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.AmazonCloudSearch.dll'
+
+New references count: 18
+Setting target framework version.
+
+Added references count:'16'
+Reference added:'Telerik.Sitefinity.HubSpotConnector'
+Reference added:'System.Numerics'
+Reference added:'System.Buffers'
+Reference added:'Microsoft.AspNet.OData'
+Reference added:'System.Memory'
+Reference added:'System.Numerics.Vectors'
+Reference added:'System.Runtime.CompilerServices.Unsafe'
+Reference added:'System.ValueTuple'
+Reference added:'PayPal'
+Reference added:'System.Threading'
+Reference added:'Nest.JsonNetSerializer'
+Reference added:'AngleSharp.Css'
+Reference added:'System.Text.Encoding.CodePages'
+Reference added:'Telerik.Web.Spreadsheet'
+Reference added:'Progress.Sitefinity.Renderer'
+Reference added:'System.ComponentModel.Annotations'
+
+Not found assemblies count:'2'
+Assembly:'AWSSDK.CloudSearch' hasn't been found in your bin folder. Csproj reference hasn't been added
+Assembly:'AWSSDK.CloudSearchDomain' hasn't been found in your bin folder. Csproj reference hasn't been added

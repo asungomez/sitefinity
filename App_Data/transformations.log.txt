@@ -1,0 +1,418 @@
+26/11/2018 13:03:00
+Transformation file version: 11168000 
+
+Executing InsertBefore (transform line 5, 34)
+on /configuration/system.web/httpModules/remove
+Applying to 'httpModules' element (no source line info)
+Inserted 'remove' element
+Done executing InsertBefore
+Executing InsertAfter (transform line 6, 151)
+on /configuration/system.web/httpModules/add
+Applying to 'httpModules' element (no source line info)
+Inserted 'add' element
+Done executing InsertAfter
+Executing InsertBefore (transform line 11, 34)
+on /configuration/system.webServer/modules/remove
+Applying to 'modules' element (no source line info)
+Inserted 'remove' element
+Done executing InsertBefore
+Executing InsertAfter (transform line 12, 151)
+on /configuration/system.webServer/modules/add
+Applying to 'modules' element (no source line info)
+Inserted 'add' element
+Done executing InsertAfter
+Executing InsertIfMissing (transform line 15, 12)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+Executing Remove (transform line 17, 26)
+on /configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='System.Web.Helpers']/parent::*
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 18, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.Helpers']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 18, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.Helpers']'
+Not executing Replace (transform line 19, 105)
+Executing Remove (transform line 24, 26)
+on /configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='System.Web.WebPages']/parent::*
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 25, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.WebPages']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 25, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.WebPages']'
+Not executing Replace (transform line 26, 106)
+Executing Remove (transform line 31, 26)
+on /configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='System.Web.Razor']/parent::*
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 32, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.Razor']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 32, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.Razor']'
+Not executing Replace (transform line 33, 103)
+Executing Remove (transform line 38, 26)
+on /configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='System.Web.WebPages.Razor']/parent::*
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 39, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.WebPages.Razor']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 39, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.WebPages.Razor']'
+Not executing Replace (transform line 40, 112)
+
+
+
+11/25/2021 8:43:55 AM
+Transformation file version: 12070000 
+
+Executing SetAttributes (transform line 4, 42)
+on /configuration/system.web/httpRuntime
+Applying to 'httpRuntime' element (no source line info)
+Set 'targetFramework' attribute
+Set 1 attributes
+Done executing SetAttributes
+Executing SetAttributes (transform line 5, 42)
+on /configuration/system.web/compilation
+Applying to 'compilation' element (no source line info)
+Set 'targetFramework' attribute
+Set 1 attributes
+Done executing SetAttributes
+Executing InsertIfMissing (transform line 7, 104)
+on /configuration/system.web/compilation/assemblies/add[@assembly='netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51']
+Applying to 'assemblies' element (no source line info)
+Inserted 'add' element
+Done executing InsertIfMissing
+Executing Remove (transform line 11, 45)
+on /configuration/system.web/httpModules/add[@name='SitefinityAnalyticsModule']
+Applying to 'add' element (no source line info)
+Removed 'add' element
+Done executing Remove
+Executing Remove (transform line 16, 45)
+on /configuration/system.webServer/modules/add[@name='SitefinityAnalyticsModule']
+Applying to 'add' element (no source line info)
+Removed 'add' element
+Done executing Remove
+Executing InsertIfMissing (transform line 19, 12)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+File: , LineNumber: 21, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Extensions.DependencyInjection']/parent::*'
+Not executing Remove (transform line 21, 26)
+Executing InsertIfMissing (transform line 22, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Extensions.DependencyInjection']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 22, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Extensions.DependencyInjection']'
+Not executing Replace (transform line 23, 127)
+File: , LineNumber: 28, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Extensions.DependencyInjection.Abstractions']/parent::*'
+Not executing Remove (transform line 28, 26)
+Executing InsertIfMissing (transform line 29, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Extensions.DependencyInjection.Abstractions']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 29, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Extensions.DependencyInjection.Abstractions']'
+Not executing Replace (transform line 30, 140)
+File: , LineNumber: 35, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='Microsoft.Spatial']/parent::*'
+Not executing Remove (transform line 35, 26)
+Executing InsertIfMissing (transform line 36, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Spatial']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 36, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='Microsoft.Spatial']'
+Not executing Replace (transform line 37, 104)
+
+
+11/25/2021 8:43:56 AM
+Transformation file version: 12171250 
+
+Executing InsertIfMissing (transform line 3, 12)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+Executing Remove (transform line 5, 26)
+on /configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='IdentityServer3']/parent::*
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+
+
+11/25/2021 8:43:56 AM
+Transformation file version: 12272000 
+
+Executing Remove (transform line 6, 85)
+on /configuration/location[@path='RestApi']/system.web
+Applying to 'system.web' element (no source line info)
+Removed 'system.web' element
+Done executing Remove
+Executing Replace (transform line 10, 62)
+on /configuration/location/system.webServer/validation
+Applying to 'validation' element (no source line info)
+Replaced 'validation' element
+Done executing Replace
+Executing Remove (transform line 14, 19)
+on /configuration/system.web/httpHandlers
+Applying to 'httpHandlers' element (no source line info)
+Removed 'httpHandlers' element
+Done executing Remove
+Executing Remove (transform line 15, 18)
+on /configuration/system.web/httpModules
+Applying to 'httpModules' element (no source line info)
+Removed 'httpModules' element
+Done executing Remove
+Executing Replace (transform line 18, 60)
+on /configuration/system.webServer/validation
+Applying to 'validation' element (no source line info)
+Replaced 'validation' element
+Done executing Replace
+Executing Remove (transform line 20, 64)
+on /configuration/system.webServer/handlers/remove[@name='Telerik.Sitefinity.AsyncFileUploadHandler']
+Applying to 'remove' element (no source line info)
+Removed 'remove' element
+Done executing Remove
+Executing Remove (transform line 21, 253)
+on /configuration/system.webServer/handlers/add[@scriptProcessor='%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_isapi.dll']
+Applying to 'add' element (no source line info)
+Removed 'add' element
+Done executing Remove
+Executing Remove (transform line 22, 253)
+on /configuration/system.webServer/handlers/add[@scriptProcessor='%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll']
+Applying to 'add' element (no source line info)
+Removed 'add' element
+Done executing Remove
+Executing Remove (transform line 23, 202)
+on /configuration/system.webServer/handlers/add[@name='Telerik.Sitefinity.AsyncFileUploadHandler']
+Applying to 'add' element (no source line info)
+Removed 'add' element
+Done executing Remove
+Executing InsertIfMissing (transform line 26, 12)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+File: , LineNumber: 28, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='IdentityServer3']/parent::*'
+Not executing Remove (transform line 28, 26)
+Executing Remove (transform line 29, 26)
+on /configuration/runtime/*[local-name()='assemblyBinding']/*[local-name()='dependentAssembly']/*[local-name()='assemblyIdentity'][@name='System.Web.Mvc']/parent::*
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 30, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.Mvc']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 30, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[assemblyIdentity/@name='System.Web.Mvc']'
+Not executing Replace (transform line 31, 101)
+
+
+11/25/2021 8:43:56 AM
+Transformation file version: 13073000 
+
+Executing Remove (transform line 5, 48)
+on /configuration/system.webServer/modules/remove[@name='SitefinityAnalyticsModule']
+Applying to 'remove' element (no source line info)
+Removed 'remove' element
+Done executing Remove
+Executing Remove (transform line 6, 39)
+on /configuration/system.webServer/modules/remove[@name='UrlRoutingModule']
+Applying to 'remove' element (no source line info)
+Removed 'remove' element
+Done executing Remove
+Executing InsertIfMissing (transform line 7, 43)
+on /configuration/system.webServer/modules/remove[@name='UrlRoutingModule-4.0']
+Applying to 'modules' element (no source line info)
+Inserted 'remove' element
+Done executing InsertIfMissing
+Executing Remove (transform line 8, 35)
+on /configuration/system.webServer/modules/remove[@name='ScriptModule']
+Applying to 'remove' element (no source line info)
+Removed 'remove' element
+Done executing Remove
+Executing InsertIfMissing (transform line 9, 39)
+on /configuration/system.webServer/modules/remove[@name='ScriptModule-4.0']
+Applying to 'modules' element (no source line info)
+Inserted 'remove' element
+Done executing InsertIfMissing
+File: , LineNumber: 12, LinePosition: 8, Message: No element in the source document matches '/configuration/system.webServer/handlers/remove[@name='Telerik.Sitefinity.AsyncFileUploadHandler']'
+Not executing Remove (transform line 12, 64)
+File: , LineNumber: 13, LinePosition: 8, Message: No element in the source document matches '/configuration/system.webServer/handlers/add[@name='Telerik.Sitefinity.AsyncFileUploadHandler']'
+Not executing Remove (transform line 13, 202)
+Executing InsertIfMissing (transform line 16, 11)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+Executing Remove (transform line 18, 23)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Newtonsoft.Json']
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 19, 23)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Newtonsoft.Json']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+Executing Replace (transform line 20, 96)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Newtonsoft.Json']/_defaultNamespace:assemblyIdentity[@name='Newtonsoft.Json']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+
+
+11/25/2021 8:43:56 AM
+Transformation file version: 13174000 
+
+Executing InsertIfMissing (transform line 3, 11)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+Executing Remove (transform line 5, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Microsoft.Spatial']
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 6, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Microsoft.Spatial']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+Executing Replace (transform line 7, 104)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Microsoft.Spatial']/_defaultNamespace:assemblyIdentity[@name='Microsoft.Spatial']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+File: , LineNumber: 12, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Runtime.CompilerServices.Unsafe']'
+Not executing Remove (transform line 12, 26)
+Executing InsertIfMissing (transform line 13, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Runtime.CompilerServices.Unsafe']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+Executing Replace (transform line 14, 125)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Runtime.CompilerServices.Unsafe']/_defaultNamespace:assemblyIdentity[@name='System.Runtime.CompilerServices.Unsafe']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+File: , LineNumber: 19, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Text.Encoding.CodePages']'
+Not executing Remove (transform line 19, 26)
+Executing InsertIfMissing (transform line 20, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Text.Encoding.CodePages']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+Executing Replace (transform line 21, 117)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Text.Encoding.CodePages']/_defaultNamespace:assemblyIdentity[@name='System.Text.Encoding.CodePages']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+
+
+11/25/2021 8:43:56 AM
+Transformation file version: 13275000 
+
+Executing SetAttributes (transform line 4, 40)
+on /configuration/system.web/httpRuntime
+Applying to 'httpRuntime' element (no source line info)
+Set 'targetFramework' attribute
+Set 1 attributes
+Done executing SetAttributes
+Executing SetAttributes (transform line 5, 40)
+on /configuration/system.web/compilation
+Applying to 'compilation' element (no source line info)
+Set 'targetFramework' attribute
+Set 1 attributes
+Done executing SetAttributes
+
+
+11/25/2021 8:43:56 AM
+Transformation file version: 13376000 
+
+Executing InsertIfMissing (transform line 3, 11)
+on /configuration/runtime
+Applying to 'configuration' element (no source line info)
+Done executing InsertIfMissing
+Executing Remove (transform line 5, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Cors']
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing InsertIfMissing (transform line 6, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Cors']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+Executing Replace (transform line 7, 102)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Cors']/_defaultNamespace:assemblyIdentity[@name='System.Web.Cors']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+Executing Remove (transform line 12, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Razor']
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing Remove (transform line 15, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.WebPages.Razor']
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing Remove (transform line 18, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Microsoft.Owin.StaticFiles']
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+Executing Remove (transform line 21, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.Web.Helpers']
+Applying to 'dependentAssembly' element (no source line info)
+Removed 'dependentAssembly' element
+Done executing Remove
+File: , LineNumber: 24, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Telerik.Windows.Documents.Core']'
+Not executing Remove (transform line 24, 26)
+Executing InsertIfMissing (transform line 25, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Telerik.Windows.Documents.Core']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+Executing Replace (transform line 26, 117)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Telerik.Windows.Documents.Core']/_defaultNamespace:assemblyIdentity[@name='Telerik.Windows.Documents.Core']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+File: , LineNumber: 31, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Telerik.Windows.Documents.Flow']'
+Not executing Remove (transform line 31, 26)
+Executing InsertIfMissing (transform line 32, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Telerik.Windows.Documents.Flow']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+Executing Replace (transform line 33, 117)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='Telerik.Windows.Documents.Flow']/_defaultNamespace:assemblyIdentity[@name='Telerik.Windows.Documents.Flow']
+Applying to 'assemblyIdentity' element (no source line info)
+Replaced 'assemblyIdentity' element
+Done executing Replace
+File: , LineNumber: 38, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.ComponentModel.Annotations']'
+Not executing Remove (transform line 38, 26)
+Executing InsertIfMissing (transform line 39, 26)
+on /configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.ComponentModel.Annotations']
+Applying to 'assemblyBinding' element (no source line info)
+Inserted 'dependentAssembly' element
+Done executing InsertIfMissing
+File: , LineNumber: 39, LinePosition: 8, Message: No element in the source document matches '/configuration/runtime/_defaultNamespace:assemblyBinding/_defaultNamespace:dependentAssembly[asm:assemblyIdentity/@name='System.ComponentModel.Annotations']'
+Not executing Replace (transform line 40, 119)
+
+

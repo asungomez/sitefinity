@@ -1,0 +1,325 @@
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\SitefinityWebApp.ResourcePackages.Bootstrap4.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\SitefinityWebApp.ResourcePackages.Bootstrap4.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\SitefinityWebApp.ResourcePackages.Bootstrap.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\SitefinityWebApp.ResourcePackages.Bootstrap.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\SitefinityWebApp.dll.config
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\SitefinityWebApp.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\SitefinityWebApp.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\WindowsAzureTelemetryEvents.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\EnvDTE.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\WindowsAzureEventSource.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\stdole.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\AngleSharp.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\AngleSharp.Css.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\AWSSDK.Core.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\AWSSDK.DynamoDBv2.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\AWSSDK.S3.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\AWSSDK.SQS.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\AntiXssLibrary.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Autofac.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Autofac.Integration.WebApi.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\CsvHelper.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\CsvHelper.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\HtmlSanitizer.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Analyzers.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Analyzers.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Core.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Core.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.FastVectorHighlighter.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.FastVectorHighlighter.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Highlighter.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Highlighter.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Memory.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Memory.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Queries.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Queries.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Regex.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Regex.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.SimpleFacetedSearch.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.SimpleFacetedSearch.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Snowball.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.Snowball.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.SpellChecker.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Lucene.Net.Contrib.SpellChecker.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Elasticsearch.Net.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\MaxMind.Db.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\MaxMind.GeoIP2.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.AspNet.OData.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Nest.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Nest.JsonNetSerializer.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Newtonsoft.Json.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Enyim.Caching.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\HtmlAgilityPack.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\HtmlAgilityPack.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\HtmlSanitizationLibrary.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Azure.Search.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Azure.Search.Common.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Azure.Search.Data.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Azure.Search.Service.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Data.Edm.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Data.OData.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Data.Services.Client.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.OData.Core.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.OData.Edm.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Cors.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.FileSystems.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.Security.WsFederation.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Owin.StaticFiles.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Microsoft.Spatial.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Ninject.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\PayPal.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Progress.Sitefinity.Renderer.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.Aws.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.Caching.Memcached.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.Client.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.Common.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.Interfaces.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.OrmLite.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.OrmLite.SqlServer.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.Redis.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.Server.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ServiceStack.Text.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Buffers.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Memory.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Numerics.Vectors.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Text.Encoding.CodePages.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.ValueTuple.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Spatial.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.Http.Cors.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.Helpers.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.Http.Owin.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.Http.Tracing.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.Mvc.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.Razor.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.WebPages.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.WebPages.Razor.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.DigitalExperienceCloud.Client.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Frontend.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Frontend.ContentBlock.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Frontend.DynamicContent.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Frontend.Navigation.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Frontend.News.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Frontend.Search.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.HubSpotConnector.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Web.Spreadsheet.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Ninject.Web.Common.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.OpenAccess.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.OpenAccess.40.Extensions.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Reporting.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Reporting.OpenXmlRendering.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Reporting.XpsRendering.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.ReportViewer.WebForms.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Amazon.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Analytics.Server.Infrastructure.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Audit.Elasticsearch.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Azure.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Azure.dll.config
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.DataIntelligenceConnector.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Diagnostics.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Comments.Impl.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Comments.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Dashboard.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.MarketoConnector.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Model.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Mvc.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Mvc.dll.config
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.RecurrentRules.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Resources.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.SalesForceConnector.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Documents.Impl.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Events.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Statistics.Impl.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Connectivity.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Personalization.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Personalization.Impl.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.RecycleBin.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Documents.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.ContentModules.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Ecommerce.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.EloquaConnector.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Forums.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Search.Impl.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Search.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Authentication.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.SharepointConnector.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Net.Http.Formatting.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.Http.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Web.Http.WebHost.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Translations.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Utilities.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.SiteSync.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Notifications.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Notifications.Impl.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.RecycleBin.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.RecycleBin.Impl.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Web.UI.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Data.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Documents.Fixed.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Documents.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Documents.Core.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Documents.Flow.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Documents.FormatProviders.Html.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Documents.FormatProviders.OpenXml.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Documents.FormatProviders.Rtf.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Windows.Zip.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Telerik.Sitefinity.Services.Statistics.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\Twitterizer2.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\EnvDTE.xml
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\de\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\es\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\fr\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\it\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ja\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ko\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ru\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hans\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hant\Microsoft.OData.Core.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\de\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\es\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\fr\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\it\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ja\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ko\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ru\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hans\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hant\Microsoft.OData.Edm.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\de\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\es\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\fr\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\it\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ja\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ko\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ru\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hans\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hant\Microsoft.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\de\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\es\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\fr\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\it\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ja\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ko\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\ru\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\obj\Debug\SitefinityWebApp.csprojAssemblyReference.cache
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\obj\Debug\SitefinityWebApp.csproj.CoreCompileInputs.cache
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\obj\Debug\SitefinityWebApp.csproj.CopyComplete
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\obj\Debug\SitefinityWebApp.dll
+C:\Users\jusa\Desktop\SF_GLOBAL_PROD_UPDATE\vanilla\wwwroot\obj\Debug\SitefinityWebApp.pdb
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\SitefinityWebApp.ResourcePackages.Bootstrap4.dll
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\SitefinityWebApp.ResourcePackages.Bootstrap4.pdb
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\SitefinityWebApp.ResourcePackages.Bootstrap.dll
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\SitefinityWebApp.ResourcePackages.Bootstrap.pdb
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\SitefinityWebApp.dll.config
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\SitefinityWebApp.dll
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\SitefinityWebApp.pdb
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\EnvDTE.dll
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\bin\stdole.dll
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\obj\Debug\SitefinityWebApp.csproj.AssemblyReference.cache
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\obj\Debug\SitefinityWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\obj\Debug\SitefinityWebApp.csproj.CopyComplete
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\obj\Debug\SitefinityWebApp.dll
+C:\Users\Zenid\Desktop\JLL\Sitefinity\PROD\wwwroot (1)\obj\Debug\SitefinityWebApp.pdb
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\SitefinityWebApp.ResourcePackages.Bootstrap4.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\SitefinityWebApp.ResourcePackages.Bootstrap4.pdb
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\SitefinityWebApp.ResourcePackages.Bootstrap.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\SitefinityWebApp.ResourcePackages.Bootstrap.pdb
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\SitefinityWebApp.dll.config
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\SitefinityWebApp.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\SitefinityWebApp.pdb
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\Microsoft.Owin.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\Microsoft.Owin.Security.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\Owin.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\EnvDTE.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\stdole.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\Microsoft.Owin.xml
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\Microsoft.Owin.Security.xml
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\obj\Debug\SitefinityWebApp.csproj.AssemblyReference.cache
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\obj\Debug\SitefinityWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\obj\Debug\SitefinityWebApp.csproj.CopyComplete
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\obj\Debug\SitefinityWebApp.dll
+C:\Users\Zenid\Desktop\JLL\prod\wwwroot (4)\obj\Debug\SitefinityWebApp.pdb
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\SitefinityWebApp.ResourcePackages.Bootstrap4.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\SitefinityWebApp.ResourcePackages.Bootstrap4.pdb
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\SitefinityWebApp.ResourcePackages.Bootstrap.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\SitefinityWebApp.ResourcePackages.Bootstrap.pdb
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\SitefinityWebApp.dll.config
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\SitefinityWebApp.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\SitefinityWebApp.pdb
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Microsoft.Owin.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Microsoft.Owin.Security.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Newtonsoft.Json.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Owin.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\EnvDTE.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\stdole.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Microsoft.Owin.xml
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Microsoft.Owin.Security.xml
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Zenid\Desktop\JLL\vuln\prod\bin\Newtonsoft.Json.xml
+C:\Users\Zenid\Desktop\JLL\vuln\prod\obj\Debug\SitefinityWebApp.csproj.AssemblyReference.cache
+C:\Users\Zenid\Desktop\JLL\vuln\prod\obj\Debug\SitefinityWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Zenid\Desktop\JLL\vuln\prod\obj\Debug\SitefinityWebApp.csproj.CopyComplete
+C:\Users\Zenid\Desktop\JLL\vuln\prod\obj\Debug\SitefinityWebApp.dll
+C:\Users\Zenid\Desktop\JLL\vuln\prod\obj\Debug\SitefinityWebApp.pdb

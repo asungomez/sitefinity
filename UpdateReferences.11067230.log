@@ -1,0 +1,10 @@
+Checking references started.
+
+File removed:'C:\Users\sebastian.prokopowic\Downloads\wwwroot_PRODUCTION_26112018\bin\RedDog.Search.dll'
+File removed:'C:\Users\sebastian.prokopowic\Downloads\wwwroot_PRODUCTION_26112018\bin\Telerik.Sitefinity.Frontend.SocialShare.dll'
+File removed:'C:\Users\sebastian.prokopowic\Downloads\wwwroot_PRODUCTION_26112018\bin\Telerik.OpenAccess.DataAdapter.Everlive.dll'
+File removed:'C:\Users\sebastian.prokopowic\Downloads\wwwroot_PRODUCTION_26112018\ResourcePackages\Bootstrap\MVC\Views\SocialShare\SocialShare.cshtml'
+File removed:'C:\Users\sebastian.prokopowic\Downloads\wwwroot_PRODUCTION_26112018\ResourcePackages\Bootstrap\MVC\Views\SocialShare\SocialShareIconsWithText.cshtml'
+
+New references count: 0
+Setting target framework version.
