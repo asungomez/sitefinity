@@ -23,23 +23,25 @@ jobs:
 
     - name: Check DLL Contents
       run: |
-        Write-Host "=== DLL File Size ==="
-        Get-Item bin/SitefinityWebApp.dll | Select-Object Name, Length
+        Write-Host "=== DLL File Info ==="
+        Get-Item bin/SitefinityWebApp.dll | Select-Object Name, Length, LastWriteTime
 
-        Write-Host "`n=== All Types in DLL ==="
-        $assembly = [System.Reflection.Assembly]::LoadFrom("$pwd\bin\SitefinityWebApp.dll")
-        $types = $assembly.GetTypes()
-        Write-Host "Total types: $($types.Count)"
-        $types | ForEach-Object { Write-Host $_.FullName }
-
-        Write-Host "`n=== Looking for MarkdownFieldControl ==="
-        $markdownTypes = $types | Where-Object { $_.Name -like "*Markdown*" }
-        if ($markdownTypes) {
-          Write-Host "FOUND:"
-          $markdownTypes | ForEach-Object { Write-Host $_.FullName }
+        Write-Host "`n=== Searching for MarkdownFieldControl in DLL ==="
+        $content = [System.IO.File]::ReadAllText("$pwd\bin\SitefinityWebApp.dll", [System.Text.Encoding]::GetEncoding("ISO-8859-1"))
+        if ($content -match "MarkdownFieldControl") {
+          Write-Host "SUCCESS: MarkdownFieldControl IS in the DLL"
         } else {
-          Write-Host "NOT FOUND - MarkdownFieldControl is NOT in the DLL!"
+          Write-Host "FAILURE: MarkdownFieldControl is NOT in the DLL"
         }
+
+        Write-Host "`n=== Searching for other key strings ==="
+        @("MarkdownFieldControl", "Global", "SitefinityWebApp", "FieldControl", "LayoutTemplatePath") | ForEach-Object {
+          $found = $content -match $_
+          Write-Host "$_ : $(if ($found) { 'FOUND' } else { 'NOT FOUND' })"
+        }
+
+        Write-Host "`n=== Using ildasm to list types ==="
+        & "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\ildasm.exe" /text /metadata bin/SitefinityWebApp.dll 2>$null | Select-String -Pattern "\.class.*public" | Select-Object -First 50
       shell: pwsh
 
     - name: Upload Build Artifacts
