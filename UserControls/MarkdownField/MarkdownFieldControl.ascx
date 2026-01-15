@@ -1,7 +1,7 @@
 <%@ Control Language="C#" AutoEventWireup="true" Inherits="SitefinityWebApp.UserControls.MarkdownField.MarkdownFieldControl" %>
 
-<link rel="stylesheet" href="~/ResourcePackages/Bootstrap/assets/vendor/toast-ui/toastui-editor.min.css" />
-<script src="~/ResourcePackages/Bootstrap/assets/vendor/toast-ui/toastui-editor-all.min.js"></script>
+<link rel="stylesheet" href="~/ResourcePackages/Bootstrap4/assets/vendor/toast-ui/toastui-editor.min.css" />
+<script src="~/ResourcePackages/Bootstrap4/assets/vendor/toast-ui/toastui-editor-all.min.js"></script>
 
 <input type="hidden" id="<%= ClientID %>_hiddenValue" />
 <div id="<%= ClientID %>_editor" style="margin: 10px 0;"></div>

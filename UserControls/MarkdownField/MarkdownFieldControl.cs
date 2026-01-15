@@ -3,6 +3,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Telerik.Sitefinity.Web.UI;
 using Telerik.Sitefinity.Web.UI.Fields;
+using Telerik.Sitefinity.Abstractions;
 
 namespace SitefinityWebApp.UserControls.MarkdownField
 {
@@ -11,12 +12,21 @@ namespace SitefinityWebApp.UserControls.MarkdownField
     /// </summary>
     public class MarkdownFieldControl : FieldControl
     {
+        public MarkdownFieldControl()
+        {
+            Log.Write("MarkdownFieldControl: Constructor called", ConfigurationPolicy.Trace);
+        }
+
         /// <summary>
         /// Gets the layout template path
         /// </summary>
         public override string LayoutTemplatePath
         {
-            get { return "~/UserControls/MarkdownField/MarkdownFieldControl.ascx"; }
+            get
+            {
+                Log.Write("MarkdownFieldControl: LayoutTemplatePath accessed", ConfigurationPolicy.Trace);
+                return "~/UserControls/MarkdownField/MarkdownFieldControl.ascx";
+            }
         }
 
         private string _value = string.Empty;
@@ -69,9 +79,13 @@ namespace SitefinityWebApp.UserControls.MarkdownField
         /// <param name="container">The container</param>
         protected override void InitializeControls(GenericContainer container)
         {
+            Log.Write("MarkdownFieldControl: InitializeControls called", ConfigurationPolicy.Trace);
+
             // Find the hidden field from the template
             var hiddenFieldId = this.ClientID + "_hiddenValue";
             _hiddenField = container.FindControl(hiddenFieldId) as HiddenField;
+
+            Log.Write($"MarkdownFieldControl: HiddenField found = {_hiddenField != null}", ConfigurationPolicy.Trace);
         }
     }
 }
