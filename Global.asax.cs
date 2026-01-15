@@ -1,7 +1,6 @@
 using System;
 using System.Web;
 using Telerik.Sitefinity.Abstractions;
-using Telerik.Sitefinity.Data;
 using SitefinityWebApp.UserControls.MarkdownField;
 
 namespace SitefinityWebApp
@@ -22,13 +21,13 @@ namespace SitefinityWebApp
 
         private void Bootstrapper_Bootstrapped(object sender, EventArgs e)
         {
-            // Log that we're registering the control
-            Log.Write("Registering MarkdownFieldControl...", ConfigurationPolicy.Trace);
+            // Log to confirm bootstrapping works and our type is loadable
+            Log.Write("=== SitefinityWebApp Bootstrapped ===", ConfigurationPolicy.Trace);
 
-            // Register the type so Sitefinity can resolve it
-            ObjectFactory.Container.RegisterType<MarkdownFieldControl, MarkdownFieldControl>();
-
-            Log.Write("MarkdownFieldControl registered successfully", ConfigurationPolicy.Trace);
+            // Verify the MarkdownFieldControl type can be loaded
+            var controlType = typeof(MarkdownFieldControl);
+            Log.Write($"MarkdownFieldControl type: {controlType.AssemblyQualifiedName}", ConfigurationPolicy.Trace);
+            Log.Write($"MarkdownFieldControl assembly: {controlType.Assembly.FullName}", ConfigurationPolicy.Trace);
         }
 
         /// <summary>
