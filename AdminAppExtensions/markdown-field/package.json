@@ -1,0 +1,31 @@
+{
+  "name": "sitefinity-markdown-field",
+  "version": "1.0.0",
+  "description": "Custom Markdown field for Sitefinity AdminApp using Toast UI Editor",
+  "scripts": {
+    "build": "ng build --configuration production",
+    "build:dev": "ng build --configuration development",
+    "watch": "ng build --watch --configuration development"
+  },
+  "dependencies": {
+    "@angular/animations": "~14.2.0",
+    "@angular/common": "~14.2.0",
+    "@angular/compiler": "~14.2.0",
+    "@angular/core": "~14.2.0",
+    "@angular/forms": "~14.2.0",
+    "@angular/platform-browser": "~14.2.0",
+    "@angular/platform-browser-dynamic": "~14.2.0",
+    "@progress/sitefinity-adminapp-sdk": "14.4.8200",
+    "@toast-ui/editor": "^3.2.2",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~14.2.0",
+    "@angular/cli": "~14.2.0",
+    "@angular/compiler-cli": "~14.2.0",
+    "@types/node": "^18.0.0",
+    "typescript": "~4.7.2"
+  }
+}

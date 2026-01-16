@@ -12,19 +12,32 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1.1
 
     - name: Restore NuGet packages
       run: nuget restore SitefinityWebApp.sln
 
-    - name: Build Solution
+    - name: Build AdminApp Extension
+      working-directory: AdminAppExtensions/markdown-field
+      run: |
+        npm install
+        npm run build
+
+    - name: Build .NET Solution
       run: msbuild SitefinityWebApp.csproj /p:Configuration=Release /p:Platform=AnyCPU
 
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: compiled-dll
+        name: build-output
         path: |
           bin/SitefinityWebApp.dll
           bin/SitefinityWebApp.pdb
+          AdminApp/*.bundle.js
+          AdminApp/*.bundle.js.map
