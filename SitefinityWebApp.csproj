@@ -1251,14 +1251,10 @@
   <ItemGroup>
     <Compile Include="AzureWebRole.cs" />
     <Compile Include="CustomLoginWidget.cs" />
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="Global.asax" />
     <Content Include="Sitefinity\Default.aspx" />
     <Content Include="Sitefinity\Services\Analytics\AnalyticsPermissionsService.svc" />
     <Content Include="Sitefinity\Services\Analytics\DashboardData.svc" />
