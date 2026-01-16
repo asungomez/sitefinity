@@ -73,9 +73,15 @@ function createMarkdownEditor(container: HTMLElement, context: SitefinityFieldCo
     }
   });
 
-  // Handle readonly
+  // Handle readonly - disable editing by making the editor non-editable
   if (context.readonly) {
-    editor.changeMode('viewer');
+    // Toast UI Editor doesn't have a built-in readonly mode, so we disable it via CSS
+    editorContainer.style.pointerEvents = 'none';
+    editorContainer.style.opacity = '0.7';
+    const toolbar = editorContainer.querySelector('.toastui-editor-toolbar') as HTMLElement;
+    if (toolbar) {
+      toolbar.style.display = 'none';
+    }
   }
 
   console.log('[MarkdownField] Editor initialized');
