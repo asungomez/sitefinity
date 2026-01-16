@@ -17,47 +17,23 @@ npm install
 npm run build
 ```
 
-This will output the bundle files to the `AdminApp` folder.
+This will output `markdown-field.bundle.js` to the `AdminApp` folder.
 
 ## Deployment
 
 After GitHub Actions builds the project, the following files will be in `AdminApp/`:
-- `main.*.js` - The extension bundle
-- `main.*.js.map` - Source map for debugging
+- `markdown-field.bundle.js` - The extension bundle
+- `markdown-field.bundle.js.map` - Source map for debugging
 
 These files need to be deployed to your Sitefinity server's `AdminApp/` folder.
 
 ## Loading the Extension in AdminApp
 
-The extension needs to be loaded by AdminApp. There are two approaches:
-
-### Option 1: Load via index.html (Recommended)
-
 Edit `AdminApp/index.html` and add before the closing `</body>` tag:
 
 ```html
-<script src="/adminapp/main.[hash].js" defer></script>
+<script src="/adminapp/markdown-field.bundle.js" defer></script>
 </body>
-```
-
-Replace `[hash]` with the actual hash from your build output.
-
-### Option 2: Load via config.json
-
-Edit `AdminApp/config.json` and add an `extensions` section:
-
-```json
-{
-  "editorSettings": {
-    ...
-  },
-  "extensions": [
-    {
-      "name": "MarkdownField",
-      "path": "/adminapp/main.[hash].js"
-    }
-  ]
-}
 ```
 
 ## Using in Module Builder

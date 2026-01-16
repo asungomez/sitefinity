@@ -1,7 +1,5 @@
 using System;
 using System.Web;
-using Telerik.Sitefinity.Abstractions;
-using SitefinityWebApp.UserControls.MarkdownField;
 
 namespace SitefinityWebApp
 {
@@ -15,19 +13,6 @@ namespace SitefinityWebApp
         /// </summary>
         protected void Application_Start(object sender, EventArgs e)
         {
-            // Register custom field control when Sitefinity bootstraps
-            Bootstrapper.Bootstrapped += Bootstrapper_Bootstrapped;
-        }
-
-        private void Bootstrapper_Bootstrapped(object sender, EventArgs e)
-        {
-            // Log to confirm bootstrapping works and our type is loadable
-            Log.Write("=== SitefinityWebApp Bootstrapped ===", ConfigurationPolicy.Trace);
-
-            // Verify the MarkdownFieldControl type can be loaded
-            var controlType = typeof(MarkdownFieldControl);
-            Log.Write($"MarkdownFieldControl type: {controlType.AssemblyQualifiedName}", ConfigurationPolicy.Trace);
-            Log.Write($"MarkdownFieldControl assembly: {controlType.Assembly.FullName}", ConfigurationPolicy.Trace);
         }
 
         /// <summary>

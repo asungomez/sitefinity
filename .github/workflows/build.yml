@@ -39,5 +39,5 @@ jobs:
         path: |
           bin/SitefinityWebApp.dll
           bin/SitefinityWebApp.pdb
-          AdminApp/*.bundle.js
-          AdminApp/*.bundle.js.map
+          AdminApp/markdown-field.bundle.js
+          AdminApp/markdown-field.bundle.js.map

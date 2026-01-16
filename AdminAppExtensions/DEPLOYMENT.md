@@ -16,11 +16,8 @@ bin/
   └── SitefinityWebApp.pdb
 
 AdminApp/
-  └── main.[hash].js
-  └── main.[hash].js.map
-  └── styles.[hash].css
-  └── polyfills.[hash].js
-  └── runtime.[hash].js
+  └── markdown-field.bundle.js
+  └── markdown-field.bundle.js.map
 ```
 
 ## Deployment Steps
@@ -38,11 +35,9 @@ Edit `C:\home\site\wwwroot\AdminApp\index.html`:
 Find the closing `</body>` tag and add the script reference **before** it:
 
 ```html
-  <script src="/adminapp/main.[actual-hash].js" defer></script>
+  <script src="/adminapp/markdown-field.bundle.js" defer></script>
 </body>
 ```
-
-**Important**: Replace `[actual-hash]` with the real hash from your build output.
 
 ### 3. Restart the Application
 
@@ -102,11 +97,11 @@ If you see this message, the extension is loaded successfully.
 2. Field type name is misspelled (must be exactly `MarkdownEditor`)
 3. Browser cache - try hard refresh (Ctrl+Shift+R)
 
-## Finding the Build Hash
+## Verifying the Build
 
 After GitHub Actions completes:
 
 1. Go to Actions tab → Latest workflow run
 2. Download the `build-output` artifact
-3. Look at the filenames: `main.abc123def.js`
-4. The hash is `abc123def`
+3. Verify `AdminApp/markdown-field.bundle.js` exists
+4. Deploy the file to your server
