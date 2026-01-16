@@ -60,8 +60,8 @@ Open your browser's developer console when editing content. You should see:
 
 ## Toast UI Editor
 
-This script loads Toast UI Editor from the official CDN:
-- CSS: https://uicdn.toast.com/editor/latest/toastui-editor.min.css
-- JS: https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js
+This script loads Toast UI Editor from local files in your Sitefinity project:
+- CSS: `/ResourcePackages/Bootstrap4/assets/vendor/toast-ui/toastui-editor.min.css`
+- JS: `/ResourcePackages/Bootstrap4/assets/vendor/toast-ui/toastui-editor-all.min.js`
 
-No additional dependencies needed!
+These files are already included in your project!

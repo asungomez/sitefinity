@@ -18,9 +18,9 @@
         /^markdown$/i,        // Matches field named exactly "markdown" (case-insensitive)
     ];
 
-    const TOAST_UI_CDN = {
-        css: 'https://uicdn.toast.com/editor/latest/toastui-editor.min.css',
-        js: 'https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js'
+    const TOAST_UI_LOCAL = {
+        css: '/ResourcePackages/Bootstrap4/assets/vendor/toast-ui/toastui-editor.min.css',
+        js: '/ResourcePackages/Bootstrap4/assets/vendor/toast-ui/toastui-editor-all.min.js'
     };
 
     // Track initialized editors
@@ -29,10 +29,10 @@
 
     // Load Toast UI Editor CSS
     function loadToastUIStyles() {
-        if (!document.querySelector(`link[href="${TOAST_UI_CDN.css}"]`)) {
+        if (!document.querySelector(`link[href="${TOAST_UI_LOCAL.css}"]`)) {
             const link = document.createElement('link');
             link.rel = 'stylesheet';
-            link.href = TOAST_UI_CDN.css;
+            link.href = TOAST_UI_LOCAL.css;
             document.head.appendChild(link);
         }
     }
@@ -45,7 +45,7 @@
                 return;
             }
 
-            if (document.querySelector(`script[src="${TOAST_UI_CDN.js}"]`)) {
+            if (document.querySelector(`script[src="${TOAST_UI_LOCAL.js}"]`)) {
                 // Script is loading, wait for it
                 const checkInterval = setInterval(() => {
                     if (window.toastui && window.toastui.Editor) {
@@ -57,7 +57,7 @@
             }
 
             const script = document.createElement('script');
-            script.src = TOAST_UI_CDN.js;
+            script.src = TOAST_UI_LOCAL.js;
             script.onload = resolve;
             script.onerror = reject;
             document.head.appendChild(script);
